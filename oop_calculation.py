@@ -1,11 +1,10 @@
 
-
 # shapes calculations
  
 while True:
     try:
         import math
-        #  Parent cla Shape creation(with attribute self.pi, methods circlearea and rectangleperimeter)
+        #  Parent class 'Shape' creation(with attribute self.pi, methods 'circlearea' and 'rectangleperimeter')
         class Shape:
 
             def __init__(self):
@@ -20,7 +19,7 @@ while True:
                 perimeter = 2 * (length + width)
                 return f'{perimeter:2f}'
 
-        # Subclass Diameter and Rec_square inheriting from parent class(Shape) creation
+        # Subclass 'Diameter' and 'Rec_square' inheriting from parent class(Shape) creation
         class Diameter(Shape):
 
             def diameter(self, area):
