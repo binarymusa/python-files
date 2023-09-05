@@ -1,4 +1,5 @@
-# random selection n addition
+# random selection n addition.computer selects 2 random numbers in a common list array
+#and tests if the sum is equal to sum
 
 import random
 
